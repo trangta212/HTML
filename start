@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page
+      Further down you'll see the content that displays in the page
+    -->
+    <title>Quản lý nhà hàng</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- The website JavaScript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- 1. Hiển thị nội dung
+    2. Lấy thông tin từ người dùng-->
+    <h1>Nhà hàng đồ ăn A</h1>
+    <p>
+      <!-- Đoạn văn-->
+      <br />
+      Đây là đoạn giới thiệu về nhà hàng.
+    </p>
+    <ul>
+      <li>Phương pháp 1</li>
+      <li>Phương pháp 2</li>
+      <li>Phương pháp 3</li>
+      <ol>
+        Phương pháp 4
+      </ol>
+    </ul>
+    <div>
+      <a href="https://kenh14.vn/">Clip</a>
+    </div>
+    <img
+      src="https://pasgo.vn/blog/tong-hop-cac-mau-thiet-ke-nha-hang-dep-nhat-nam-2020-co-anh-4414"
+    />
+    <table>
+      <tr>
+        <th>Cột 1</th>
+        <th>Cột 2</th>
+      </tr>
+      <tr>
+        <td>Tin 1</td>
+        <td>Tin 2</td>
+      </tr>
+    </table>
+    <!-- Lấy thông tin ngưỜI DÙNG-->
+    <div>
+      <form>
+        <lable>Điền tên</lable>
+        <input type="text" placeholder="Tên là" />
+      </form>
+    </div>
+    <div>
+      <select>
+        <label> Bạn đã làm chưa?</label>
+        <option>Rồi</option>
+        <option>Chưa</option>
+      </select>
+    </div>
+    <button>Bấm vào</button>
+  </body>
+</html>
